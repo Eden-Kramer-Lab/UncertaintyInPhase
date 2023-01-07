@@ -1,0 +1,8 @@
+Files to run in vivo analysis. 
+
+dataForAnalysis.mat: Load this file. 
+
+analyseCoh: Run this file first to build all the necessary variables by applying the FIR-Hilbert,
+state space model and the Poincare section and estimate the coherence.
+
+analyseCFC: Run this file to estimate the cross-frequency coupling. 

@@ -1,0 +1,12 @@
+amp_credInt_diffInMethods: Code to plot the amplitude against credible intervals to understand
+their relationship.
+
+compileResults: Takes data from 1000 simulations and makes a bar plot of the data. 
+
+makePlot_data_phaseEsts: Can be used with simulation files in "primarySims" to see the data
+
+makePlot_phaseDiffsAllPhaseEst: Can be used with simulation files in "primarySims" to see the phase polar plots
+
+makePSD_ar2: Analytic power spectral density for AR(2) with rhythm at 6 Hz.
+
+makePSD_broadbandPinkNoise: Analytic power spectral density for broadband rhythm in pink noise.

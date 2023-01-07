@@ -1,0 +1,14 @@
+AR_2_sim: Function that runs an AR(2) simulation that generates a rhythm at 6 Hz and estimates phase using 
+FIR-Hilbert, state space model and Poincare section method. All three methods are implemented in the file. 
+
+broadband_sim: Function that runs the "Broadband rhythm in pink noise" simulation that generates a rhythm at 6 Hz and estimates phase using 
+FIR-Hilbert, state space model and Poincare section method. All three methods are implemented in the file. 
+
+FN_sim: Function that runs the Fitzhugh-Nagumo model simulation that generates a rhythm at 1 Hz and estimates phase using 
+FIR-Hilbert, state space model and Poincare section method. All three methods are implemented in the file. 
+
+fitzhugh_nagumo: Function to generate data for Fitzhugh-Nagumo model. 
+
+hilbConfLimits: Estimates the confidence limits for the Hilbert transform based on the filter details and the filtered data. 
+
+runAllSims: File that repeats any simulation 1000 times. 
